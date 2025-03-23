@@ -23,24 +23,13 @@ html {
 
 #name {
   font-size: 24px;
-  border-right: 2px solid;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 4s steps(40, end), blink-caret 0.75s steps(40, end);
 }
 
 @media screen and (max-width: 430px) {
   .job p {
     font-size: 14px;
-  }
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
   }
 }
 
@@ -87,15 +76,15 @@ h3 {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   background-color: white;
   overflow: hidden;
-  min-height: 30px;
-  min-width: 30px;
+  min-height: 35px;
+  min-width: 35px;
   margin: 12px;
 }
 
 .logo-container img {
   display: block;
-  height: 30px;
-  width: 30px;
+  height: 35px;
+  width: 35px;
 }
 
 .particle {
