@@ -43,10 +43,10 @@ function init() {
 
 function animate() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
-  particles.forEach(particle => {
+  for (const particle of particles) {
     particle.update();
     particle.draw();
-  });
+  }
   requestAnimationFrame(animate);
 }
 
